@@ -7,7 +7,9 @@ private GameGUI theGUI;
 private MoveDescr theMove;
 
 void putTheGUI( GameGUI g ) { theGUI = g; }
-
+/**
+ * git test comment
+ */
 public synchronized MoveDescr draw() {
   theGUI.enableMove();
   try{
